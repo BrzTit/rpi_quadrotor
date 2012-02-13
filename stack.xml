@@ -1,0 +1,9 @@
+<stack>
+  <description brief="rpi_quadrotor">rpi_quadrotor</description>
+  <author>Maintained by William Sisson</author>
+  <license>BSD</license>  
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/rpi_quadrotor</url>
+  <depend stack="ros" />
+
+</stack>

@@ -1,0 +1,42 @@
+Welcome to the codebase of the...
+            _                         _           _             
+           (_)                       | |         | |            
+ _ __ _ __  _    __ _ _   _  __ _  __| |_ __ ___ | |_ ___  _ __ 
+| '__| '_ \| |  / _` | | | |/ _` |/ _` | '__/ _ \| __/ _ \| '__|
+| |  | |_) | | | (_| | |_| | (_| | (_| | | | (_) | || (_) | |   
+|_|  | .__/|_|  \__, |\__,_|\__,_|\__,_|_|  \___/ \__\___/|_|   
+     | |           | |                                          
+     |_|           |_|
+
+------------------
+* Getting Started
+------------------
+TBD
+
+-----------------
+* Dependencies
+-----------------
+Make sure you install the following external dependencies:
+	- VTK
+	- OpenSceneGraph
+	   - Note for osx 10.7: as of Feb 2012 you need to patch one of the files
+		 in order for compilation to complete.  See /doc/osx-osg.txt for details
+	- PCL?
+
+-----------------
+* Compilation
+-----------------
+~$ cmake .
+~$ make
+
+-----------------
+* Contributing!
+-----------------
+Here are the rules:
+	- Read this: http://spheredev.org/wiki/Git_for_the_lazy
+	- PLEASE use detailed commit messages.
+	- Do NOT put generated files into the repository.  Its easy to recompile.
+	  Its hard to track down glitches caused by a committed CMakeCache.txt
+	- Use Doxygen style comments on top of public interfaces.  
+
+-billy

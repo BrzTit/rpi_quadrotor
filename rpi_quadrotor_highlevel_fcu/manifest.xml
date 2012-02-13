@@ -1,0 +1,15 @@
+<package>
+  <description brief="rpi_quadrotor_highlevel_fcu">
+
+     rpi_quadrotor_highlevel_fcu
+
+  </description>
+  <author>William Sisson</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/rpi_quadrotor_highlevel_fcu</url>
+  <depend package="roscpp"/>
+
+</package>
+
+
