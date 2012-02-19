@@ -2,5 +2,6 @@ CMakeFiles
 CMakeCache.txt
 cmake_install.cmake
 bin
+lib
 .DS_Store
 Makefile
