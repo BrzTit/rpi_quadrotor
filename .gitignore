@@ -5,3 +5,5 @@ bin
 lib
 .DS_Store
 Makefile
+msg_gen
+srv_gen
