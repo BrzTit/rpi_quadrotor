@@ -17,14 +17,16 @@ set(LIBRARY_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/lib)
 #rosbuild_genmsg()
 #rosbuild_gensrv()
 
-#target_link_libraries(${PROJECT_NAME} another_library)
-#rosbuild_add_boost_directories()
-#rosbuild_link_boost(${PROJECT_NAME} thread)
+include_directories(
+	${CMAKE_CURRENT_SOURCE_DIR}
+)
+rosbuild_add_boost_directories()
 
 rosbuild_add_library(sparkfun6dof 
 	driver_sparkfun6dof/sparkfun6dof.cpp driver_sparkfun6dof/sparkfun6dof.h
 	)
 #target_link_libraries(sparkfun6dof ...)	
+rosbuild_link_boost(sparkfun6dof thread)
 	
 rosbuild_add_executable(imu_reader imu_reader/imu_reader.cpp)
 target_link_libraries(
